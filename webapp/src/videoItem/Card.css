@@ -1,0 +1,18 @@
+
+.card {
+    padding: 2px;
+    background-color: transparent;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+.dark-mode .card {
+    color: var(--clr-light);
+}
+.dark-mode .card:hover {
+    background-color: #ffffff21;
+}
+.card:hover {
+    background-color: #00000020;
+    transform: scale(1.05); 
+    cursor: pointer;
+}

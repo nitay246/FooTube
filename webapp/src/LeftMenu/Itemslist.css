@@ -1,0 +1,37 @@
+:root {
+  --clr-dark: #070a13;
+  --clr-light: #f1f5f9;
+}
+.transparent-bg {
+  background-color: transparent !important;
+}
+.list-group-item {
+    border: 0;
+    background-color: transparent;
+    transition: transform 0.3s ease-in-out;
+  }
+  body.dark-mode .list-group-item {
+    border: 0;
+    background-color: transparent;
+    color: var(--clr-light);
+  }
+  .list-group-item:hover {
+    background-color: lightgray;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  body.dark-mode .list-group-item:hover {
+    background-color: rgb(41, 40, 40);
+    cursor: pointer;
+  }
+  body.dark-mode {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  a:hover{
+    color: inherit;
+  }

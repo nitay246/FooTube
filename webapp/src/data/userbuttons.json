@@ -1,0 +1,27 @@
+[
+    {
+        "description": "Home",
+        "link": "/",
+        "icon":"bi bi-house-door-fill"
+        
+    },
+   
+    {
+        "description": "Uplaod Video",
+        "link": "/Addingvideo",
+        "icon":"bi bi-plus-circle"
+        
+    },
+    {
+        "description": "Notifications",
+        "link": "/",
+        "icon": "bi bi-bell"
+    },
+    {
+        "description": "Liked videos",
+        "link": "/",
+        "icon": "bi bi-hand-thumbs-up"
+    }
+    
+   
+]

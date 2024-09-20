@@ -1,0 +1,38 @@
+.cardreg {
+  background-color: rgba(128, 128, 128, 0.208);
+  border-radius: 5px;
+} 
+.cardreg {
+  background-color: rgba(128, 128, 128, 0.208);
+  border-radius: 5px;
+}
+.dark-mode .cardreg {
+  background-color: rgba(0, 0, 0, 0.781);
+  border-radius: 5px;
+}
+.btn-sign {
+    background-color: red;  
+}
+.dark-mode .btn-sign {
+  color: var(--clr-light);
+}
+.btn-sign:hover{
+  background-color: rgb(187, 1, 1);
+}
+.dark-mode .btn-sign:hover{
+  background-color: rgb(187, 1, 1);
+}  
+.validinput{
+    font-size: x-small;
+    color: rgba(128, 128, 128, 0.811);
+}
+.dark-mode .validinput{
+    font-size: x-small;
+    color: var(--clr-light);
+}
+.dark-mode .form-control::placeholder {
+  color: transparent;
+}
+.dark-mode .form-control {
+  color: var(--clr-light);
+}

@@ -1,0 +1,19 @@
+.menu-button {
+    font-size: 1.5rem;
+    color: var(--clr-dark);
+}
+.dark-mode .menu-button {
+    color: var(--clr-light);
+}
+.dark-mode .offcanvas-header {
+    background-color: var(--clr-dark); 
+    color: var(--clr-light);
+}
+
+.dark-mode .offcanvas-body {
+    background-color: var(--clr-dark);
+    color: var(--clr-dark); 
+}
+.dark-mode .offcanvas-header .btn-close {
+    background-color: var(--clr-light);
+}

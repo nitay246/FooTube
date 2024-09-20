@@ -1,0 +1,26 @@
+/* Dark mode styles */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  /* Dark mode input fields */
+  .dark-mode-input {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #555555;
+  }
+  
+  /* Dark mode placeholder text */
+  .dark-mode-input::placeholder {
+    color: #bbbbbb !important;
+  }
+  /* Modal dark mode */
+  .modal-content.dark-mode {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  /* Dark mode close button */
+.dark-mode .btn-close {
+  filter: invert(1);
+}
